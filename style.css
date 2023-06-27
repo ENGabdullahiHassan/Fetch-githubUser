@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+.container {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.user-erea{
+	background-color: whiteaqua;
+    width: 400px;
+    border: 5px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.username{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    
+}
+button{
+    margin-top: 40px;
+    width: 400px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(109, 109, 223);
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.box-erea{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.781);
+    margin: 20px;
+}
+
+.follower{
+    display: flex;
+    
+}
+.follower p{
+    padding: 10px 10px 0px 0px;
+}
+.userInformation img {
+    margin-bottom: 30px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+
+.userInformation{
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 400px;
+}
